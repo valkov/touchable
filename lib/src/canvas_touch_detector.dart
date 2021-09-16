@@ -86,21 +86,21 @@ class _CanvasTouchDetectorState extends State<CanvasTouchDetector> {
           onForcePressUpdate: (tapDetail) {
             touchController.add(Gesture(GestureType.onForcePressUpdate, tapDetail));
           },
-          onPanStart: (tapDetail) {
-            touchController.add(Gesture(GestureType.onPanStart, tapDetail));
-          },
-          onPanUpdate: (tapDetail) {
-            touchController.add(Gesture(GestureType.onPanUpdate, tapDetail));
-          },
-          onPanDown: (tapDetail) {
-            touchController.add(Gesture(GestureType.onPanDown, tapDetail));
-          },
-          onSecondaryTapDown: (tapDetail) {
-            touchController.add(Gesture(GestureType.onSecondaryTapDown, tapDetail));
-          },
-          onSecondaryTapUp: (tapDetail) {
-            touchController.add(Gesture(GestureType.onSecondaryTapUp, tapDetail));
-          },
+          // onPanStart: (tapDetail) {
+          //   touchController.add(Gesture(GestureType.onPanStart, tapDetail));
+          // },
+          // onPanUpdate: (tapDetail) {
+          //   touchController.add(Gesture(GestureType.onPanUpdate, tapDetail));
+          // },
+          // onPanDown: (tapDetail) {
+          //   touchController.add(Gesture(GestureType.onPanDown, tapDetail));
+          // },
+          // onSecondaryTapDown: (tapDetail) {
+          //   touchController.add(Gesture(GestureType.onSecondaryTapDown, tapDetail));
+          // },
+          // onSecondaryTapUp: (tapDetail) {
+          //   touchController.add(Gesture(GestureType.onSecondaryTapUp, tapDetail));
+          // },
         ));
   }
 
